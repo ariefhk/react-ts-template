@@ -1,5 +1,5 @@
-import { createRoot } from "react-dom/client"
 import "./index.css"
+import { createRoot } from "react-dom/client"
 import { RouterProvider } from "react-router-dom"
 import { ThemeProvider } from "./components/provider/theme-provider.tsx"
 import { Toaster } from "./components/ui/toaster.tsx"
