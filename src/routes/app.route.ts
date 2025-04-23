@@ -1,7 +1,7 @@
 import HomePage from "../pages/home-page";
 import { RouteRootInterface } from "./route.types";
 
-const HomePageRoutes: RouteRootInterface[] = [
+const appRoutes: RouteRootInterface[] = [
   {
     name: "home-page",
     path: "/",
@@ -9,4 +9,4 @@ const HomePageRoutes: RouteRootInterface[] = [
   },
 ];
 
-export default HomePageRoutes;
+export default appRoutes;
